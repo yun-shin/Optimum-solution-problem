@@ -1,0 +1,26 @@
+min 10XS1 + 20XS2 + 20XS3 + 5X12 + 15X13 + 35X14 + 35X24 + 30X2T + 20X34 + 15X35 + 15X4T + 10X54 + 20X5T
+st
+XS1 + XS2 + XS3 = 1
+XS1 + XS2 + XS3 = 1
+
+XS1 - X12 - X13 - X14 = 0 
+XS2 + X12 - X24 - X2T = 0 
+XS3 + X13 - X34 - X35 = 0 
+X14 + X24 + X34 + X54 - X4T = 0
+X35 - X54 - X5T = 0 
+end
+
+int XS1
+int XS2
+int XS3
+
+int X12
+int X13
+int X14
+int X24
+int X2T
+int X34
+int X35
+int X4T
+int X54
+int X5T

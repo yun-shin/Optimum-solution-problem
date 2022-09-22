@@ -1,0 +1,40 @@
+S = 동대입구
+1 = 충무로
+2 = 을지로3가
+3 = 을지로4가
+4 = 동대문역사문화공원
+5 = 종로3가
+6 = 동대문
+T = 종로5가
+
+[Lindo code]
+
+min 2XS1 + 2X12 + 3X14 + 2X23 + 2X25 + 4X34 + 2X35 + 2X46 + 2X5T + 2X6T
+st
+
+S1 = 1
+X12 + X14 = 1
+X23 + X25 + X34 + X46 = 1
+X5T + X6T = 1
+
+X23 - X35 - X34 = 0
+X34 - X35 = 0
+
+X12 - X25 - X23 = 0
+X14 - X34 - X46 = 0
+
+X25 + X35 - X5T = 0
+X46 - X6T = 0
+
+end
+
+int XS1
+int X12
+int X14
+int X23
+int X25
+int X34
+int X35
+int X46
+int X5T
+int X6T
